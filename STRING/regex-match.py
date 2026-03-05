@@ -1,7 +1,7 @@
 import re
 
-text = "The quick brown fox"
-pattern = r"quick"
+text = "Kangaroos are marsupials that are native to Australia. They are known for their powerful hind legs and ability to hop."
+pattern = r"Kangaroos"
 
 match = re.match(pattern, text)
 if match:

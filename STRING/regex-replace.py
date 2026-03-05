@@ -1,6 +1,7 @@
 import re
 
-text = "The quick brown fox jumps over the lazy brown dog"
+text = "The quick brown Kangaroo" \
+    " jumps over the lazy brown dog"
 pattern = r"brown"
 
 replacement = "red"
